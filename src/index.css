@@ -1,0 +1,35 @@
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  src: url("./assets/font/fa-v4compatibility.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.toolbar {
+  margin: 10px 0px;
+}
+
+.toolbar>.toolbar-item:not(:last-child) {
+  /* border-right: 1px solid #ccc; */
+}
+
+.toolbar-item {
+  padding: 0px 10px;
+}
+
+.scheduler_default_corner>div:nth-child(4) {
+  display: none;
+}
+
+body {
+  font-family: "Font Awesome 6 Free", FontAwesome6Free;
+}
+
+.header-title {
+  text-align: center;
+}
